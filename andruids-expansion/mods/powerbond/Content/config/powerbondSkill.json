@@ -1,6 +1,7 @@
 {
 	"powerbond" : {
 		"name" : "Power Bond",
+		"specialty" : [], // no generic specialty
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 3

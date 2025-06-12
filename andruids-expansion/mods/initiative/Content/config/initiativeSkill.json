@@ -1,6 +1,7 @@
 {
 	"initiative" : {
 		"name" : "Initiative",
+		"specialty" : [], // no generic specialty
 		"gainChance" : {
 			"might" : 3,
 			"magic" : 1

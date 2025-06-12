@@ -27,14 +27,14 @@
 				"targetModifier":{"smart":false},
 				"effects" : {
 					"initiativeBoost" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"val" : 19,
 						"valueType" : "PERCENT_TO_ALL",
 						"type" : "STACKS_SPEED",
 						"duration" : "STACK_GETS_TURN"
 					},
 					"initiativeFlat" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"val" : 1,
 						"valueType" : "BASE_NUMBER",
 						"type" : "STACKS_SPEED",

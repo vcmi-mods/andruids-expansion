@@ -1,20 +1,22 @@
 {		
 	"bonerGreen":
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"spellAfterAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"addInfo" : [0,2],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 10
 			},
+			"specificSpellPower" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "TREASURE",
 		"slot" : "MISC",
@@ -33,20 +35,22 @@
 
 	"bonerRed":
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"spellAfterAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"addInfo" : [0,2],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 20
 			},
+			"specificSpellPower" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "TREASURE",
 		"slot" : "MISC",
@@ -65,20 +69,22 @@
 
 	"bonerPurple":
 	{
-		"bonuses" : [
+		"bonuses" : {
+			"spellAfterAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"addInfo" : [0,2],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 30
 			},
+			"specificSpellPower" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
-		],
+		},
 		"type" : ["CREATURE"],
 		"class" : "MINOR",
 		"slot" : "MISC",

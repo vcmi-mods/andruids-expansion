@@ -3,11 +3,11 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.9.3",
+	"version" : "0.9.4",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.7.0"
 	},
 	"chinese" : {
 		"name" : "扩展模组（Andruids Expansion）",
@@ -39,6 +39,7 @@
 	},
 	"changelog" :
     {
+		"0.9.4"   : [ "Update for vcmi-1.7 format" ],
 		"0.9.3"   : [ "Fix for Damned Utopia bank" ],
 		"0.9.2"   : [ "Updated Czech translation" ],
 		"0.9.1"   : [ "Updated Polish translation" ],
