@@ -43,7 +43,7 @@
 		{
 			"base":
 			{
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range": "0",
 				"targetModifier":
 				{
@@ -63,13 +63,13 @@
 						{
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"duration" : "N_TURNS"
 						},
 					"defenceDisease" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"duration" : "N_TURNS"
 						}
 					}
@@ -99,7 +99,7 @@
 			"base":{
 
 				"description": "{No Attack}\r\n\r\nIt's a siege machine, so it can't attack in melee, duh...",
-				"cost": 0, "power": 1, "aiValue": 0,
+				"cost": 0, "power": 1, //"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"effects" : {

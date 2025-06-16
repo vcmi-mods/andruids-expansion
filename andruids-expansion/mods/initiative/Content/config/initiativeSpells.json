@@ -22,7 +22,7 @@
 				"description": "Speed of creatures in hero army is increased (but not movement).",
 				"cost": 0,
 				"power": 3,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":false},
 				"effects" : {

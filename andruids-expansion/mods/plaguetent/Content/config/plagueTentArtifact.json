@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "plagueTentArtifact",
-			"map"  :   "plagueTentMap"
+			"map"  :   "plagueTentMap",
+			"scenarioBonus" : "bonusBlank.png"
 		}
 	}
 }

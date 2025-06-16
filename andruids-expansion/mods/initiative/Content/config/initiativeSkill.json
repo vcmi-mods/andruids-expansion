@@ -18,7 +18,8 @@
 			"images" : {
 				"small" : "initiativeSmallBasic.png",
 				"medium" : "initiativeMediumBasic.png",
-				"large" : "initiativeLargeBasic.png"
+				"large" : "initiativeLargeBasic.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Basic Initiative}\n\nSpeed of creatures in hero army is increased by 10% (but not movement).",
 			//but their movement is reduced by x?
@@ -32,7 +33,8 @@
 			"images" : {
 				"small" : "initiativeSmallAdvanced.png",
 				"medium" : "initiativeMediumAdvanced.png",
-				"large" : "initiativeLargeAdvanced.png"
+				"large" : "initiativeLargeAdvanced.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Advanced Initiative}\n\nSpeed of creatures in hero army is increased by 20% (but not movement).",
 			"effects" : {
@@ -45,7 +47,8 @@
 			"images" : {
 				"small" : "initiativeSmallExpert.png",
 				"medium" : "initiativeMediumExpert.png",
-				"large" : "initiativeLargeExpert.png"
+				"large" : "initiativeLargeExpert.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Expert Initiative}\n\nSpeed of creatures in hero army is increased by 30% (but not movement).",
 			"effects" : {

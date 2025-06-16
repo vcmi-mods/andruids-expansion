@@ -10,7 +10,7 @@
 			"effects" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"valueType" : "PERCENT_TO_BASE",
 					"limiters": [ "anyOf",	{	
 						"type":"HAS_ANOTHER_BONUS_LIMITER", 
@@ -23,7 +23,8 @@
 			"images" : {
 				"small" : "powerbondSmallBasic.png",
 				"medium" : "powerbondMediumBasic.png",
-				"large" : "powerbondLargeBasic.png"
+				"large" : "powerbondLargeBasic.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Basic Power Bond}\n\nAttack damage of magic-using creatures is increased by 10%.",
 			//but Hero's Spell Power is reduced by x.
@@ -37,7 +38,8 @@
 			"images" : {
 				"small" : "powerbondSmallAdvanced.png",
 				"medium" : "powerbondMediumAdvanced.png",
-				"large" : "powerbondLargeAdvanced.png"
+				"large" : "powerbondLargeAdvanced.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Advanced Power Bond}\n\nAttack damage of magic-using creatures is increased by 25%.",
 			"effects" : {
@@ -50,7 +52,8 @@
 			"images" : {
 				"small" : "powerbondSmallExpert.png",
 				"medium" : "powerbondMediumExpert.png",
-				"large" : "powerbondLargeExpert.png"
+				"large" : "powerbondLargeExpert.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Expert Power Bond}\n\nAttack damage of magic-using creatures is increased by 50%.",
 			"effects" : {

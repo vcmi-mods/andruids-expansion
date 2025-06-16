@@ -23,7 +23,7 @@
 		"value" : 1500,
 		"graphics" : { 
 			"image" : "newpb/bone1",
-			"large" : "newpb/bone1camp", 
+			"scenarioBonus" : "newpb/bone1camp", 
 			"map" : "newpb/bone1Map"
 		},
 		"text" : {
@@ -57,7 +57,7 @@
 		"value" : 3000,
 		"graphics" : { 
 			"image" : "newpb/bone2",
-			"large" : "newpb/bone2camp", 
+			"scenarioBonus" : "newpb/bone2camp", 
 			"map" : "newpb/bone2Map"
 		},
 		"text" : {
@@ -91,7 +91,7 @@
 		"value" : 4500,
 		"graphics" : { 
 			"image" : "newpb/bone3",
-			"large" : "newpb/bone3camp", 
+			"scenarioBonus" : "newpb/bone3camp", 
 			"map" : "newpb/bone3Map"
 		},
 		"text" : {

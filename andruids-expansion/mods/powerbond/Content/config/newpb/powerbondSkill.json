@@ -50,7 +50,8 @@
 			"images" : {
 				"small" : "newpb/powerbondSmallBasic.png",
 				"medium" : "newpb/powerbondMediumBasic.png",
-				"large" : "newpb/powerbondLargeBasic.png"
+				"large" : "newpb/powerbondLargeBasic.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Basic Power Bond}\n\nAllied creatues have 15% chance to deal 2 damage (per crature) after each melee attack. Creatures that cast spells have 1 additional cast.",
 			//but Hero's Spell Power is reduced by x.
@@ -64,7 +65,8 @@
 			"images" : {
 				"small" : "newpb/powerbondSmallAdvanced.png",
 				"medium" : "newpb/powerbondMediumAdvanced.png",
-				"large" : "newpb/powerbondLargeAdvanced.png"
+				"large" : "newpb/powerbondLargeAdvanced.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			"description" : "{Advanced Power Bond}\n\nAllied creatues have 30% chance to deal 2 damage (per crature) after each melee attack. Creatures that cast spells have 1 additional cast.",
 			"effects" : {
@@ -77,7 +79,8 @@
 			"images" : {
 				"small" : "newpb/powerbondSmallExpert.png",
 				"medium" : "newpb/powerbondMediumExpert.png",
-				"large" : "newpb/powerbondLargeExpert.png"
+				"large" : "newpb/powerbondLargeExpert.png",
+				"scenarioBonus" : "bonusBlank.png"
 			},
 			//"description" : "{Expert Power Bond}\n\nAllied creatues have 45% chance to deal 2 damage (per crature) after each attack. This chance grows by 15% with each turn but resets to 45% after an attempt to attack. Creatures that cast spells have 1 additional cast.",
 			"description" : "{Expert Power Bond}\n\nAllied creatues have 45% chance to deal 2 damage (per crature) after each melee attack. Creatures that cast spells have 1 additional cast.",

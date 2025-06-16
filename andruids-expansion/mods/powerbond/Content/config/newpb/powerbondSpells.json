@@ -26,7 +26,7 @@
 				"description": "",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage"}
@@ -47,7 +47,7 @@
 
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal" //I don't know how to set this in vcmi-1.7
 			}
 		}
 	},
@@ -76,7 +76,7 @@
 				"description": "",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"battleEffects" : {
 					
