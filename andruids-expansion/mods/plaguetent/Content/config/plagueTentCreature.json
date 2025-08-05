@@ -1,81 +1,68 @@
 {
-	"plagueTent":
-	{
-		"name" :
-		{
+	"plagueTent" : {
+		"name" : {
 			"plural" : "Plague Tent",
 			"singular" : "Plague Tent"
 		},
 		"faction" : "neutral",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 0,
 		"damage" : {
 			"max" : 0,
 			"min" : 0
-		},		
-        "cost" :
-		{
+		},
+		"cost" : {
 			"gold" : 1500
 		},
 		"defense" : 0,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "plagueTentBattle",
 			"iconSmall" : "plagueTentIconSmall",
 			"iconLarge" : "plagueTentIconLarge",
 			"map" : "plagueTentMap",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"killed": "FAIDKILL.wav",
-			"wince": "FAIDWNCE.wav"
+		"sound" : {
+			"killed" : "FAIDKILL.wav",
+			"wince" : "FAIDWNCE.wav"
 		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 125,
 		"speed" : 0,
-		"abilities" :
-		{
-			"noAttacking" : 
-			{
+		"abilities" : {
+			"noAttacking" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.plagueTentNoAttack"
 			},
-			
-			"plagueCasting" : 
-			{
+
+			"plagueCasting" : {
 				"type" : "SPELLCASTER",
-				"subtype": "spell.plagueTentPlague",
-				"addInfo": 70
+				"subtype" : "spell.plagueTentPlague",
+				"addInfo" : 70
 			},
-			"plagueDuration" : 
-			{
+			"plagueDuration" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val": 3
+				"val" : 3
 			},
-			"poisonCasting" : 
-			{
+			"poisonCasting" : {
 				"type" : "SPELLCASTER",
-				"subtype": "spell.poison",
-				"addInfo": 30
-			},	
-			"casts" : 
-			{
+				"subtype" : "spell.poison",
+				"addInfo" : 30
+			},
+			"casts" : {
 				"type" : "CASTS",
-				"val": 12
-			},	
-			"warmachine" :
-			{
+				"val" : 12
+			},
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			}
 		}

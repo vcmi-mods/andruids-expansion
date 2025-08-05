@@ -1,24 +1,21 @@
 {
-	"plagueTent":
-        {
-	"type" : ["HERO"],
-	"warMachine":"plagueTent",
-        "class": "SPECIAL",
-        "value": 1500,
-        "slot":"MACH3",
-        "text":
-		{
-			"name": "Plague Tent",
-			"description": "{Plague Tent}\r\n\r\nThe Plague Tent afflicts your enemies with a disease and has a small chance to poison then.",
-			"event": "The Plague Tent is a source of pestilence that eats away at your foes."
+	"plagueTent" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "plagueTent",
+		"class" : "SPECIAL",
+		"value" : 1500,
+		"slot" : "MACH3",
+		"text" : {
+			"name" : "Plague Tent",
+			"description" : "{Plague Tent}\r\n\r\nThe Plague Tent afflicts your enemies with a disease and has a small chance to poison then.",
+			"event" : "The Plague Tent is a source of pestilence that eats away at your foes."
 		},
-		"graphics":
-		{
-			"image": "plagueTentArtifact",
-			"map"  :   "plagueTentMap",
+		"graphics" : {
+			"image" : "plagueTentArtifact",
+			"map" : "plagueTentMap",
 			"scenarioBonus" : "bonusBlank.png"
 		}
 	}
 }
-
-

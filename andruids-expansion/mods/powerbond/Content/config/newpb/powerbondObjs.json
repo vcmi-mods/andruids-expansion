@@ -1,208 +1,222 @@
-{	   
+{
 	"bonepeddlerCart" : {
-
-        "name" : "Bonepeddler's Cart",
-        "handler": "configurable",
-        "types" : {
-            "default" :
-            {
-				"blockedVisitable": true,
-				"removable": true,
-                "name" : "Bonepeddler's Cart",
-                "rmg" : {
-                    "value"        : 3000,
-                    "rarity"    : 300,
-                    "zoneLimit" : 1
-                },
-                "sounds" : {
-                    "ambient" : ["newpb/susmelody"],
-                    "visit" : ["MYSTERY"]
-                },
-                "rewards" :
-                [
-                    {
-						"artifacts": 
-							["bonerGreen"],
+		"name" : "Bonepeddler's Cart",
+		"handler" : "configurable",
+		"types" : {
+			"default" : {
+				"blockedVisitable" : true,
+				"removable" : true,
+				"name" : "Bonepeddler's Cart",
+				"rmg" : {
+					"value" : 3000,
+					"rarity" : 300,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"newpb/susmelody"
+					],
+					"visit" : [
+						"MYSTERY"
+					]
+				},
+				"rewards" : [
+					{
+						"artifacts" : [
+							"bonerGreen"
+						],
 						"resources" : {
 							"gold" : -1500
 						},
-						"appearChance": 
-						{
-							"dice": 1,
+						"appearChance" : {
+							"dice" : 1,
 							"min" : 0,
 							"max" : 50
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 1500}
+						"limiter" : {
+							"resources" : {
+								"gold" : 1500
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
-                    },  
-                    {
-						"artifacts": 
-							["bonerGreen"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerGreen"
+						],
 						"resources" : {
 							"gold" : -1500
 						},
-						"appearChance": 
-						{
-							"dice": 2,
+						"appearChance" : {
+							"dice" : 2,
 							"min" : 0,
 							"max" : 50
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 1500}
+						"limiter" : {
+							"resources" : {
+								"gold" : 1500
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
-                    },  
-                    {
-						"artifacts": 
-							["bonerGreen"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerGreen"
+						],
 						"resources" : {
 							"gold" : -1500
 						},
-						"appearChance": 
-						{
-							"dice": 3,
+						"appearChance" : {
+							"dice" : 3,
 							"min" : 0,
 							"max" : 50
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 1500}
+						"limiter" : {
+							"resources" : {
+								"gold" : 1500
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
-                    },  
-                    {
-						"artifacts": 
-							["bonerRed"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerRed"
+						],
 						"resources" : {
 							"gold" : -3000
 						},
-						"appearChance": 
-						{
-							"dice": 1,
+						"appearChance" : {
+							"dice" : 1,
 							"min" : 50,
 							"max" : 85
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
-					},  
-                    {
-						"artifacts": 
-							["bonerRed"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerRed"
+						],
 						"resources" : {
 							"gold" : -3000
 						},
-						"appearChance": 
-						{
-							"dice": 2,
+						"appearChance" : {
+							"dice" : 2,
 							"min" : 50,
 							"max" : 85
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
-                    },  
-                    {
-						"artifacts": 
-							["bonerRed"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerRed"
+						],
 						"resources" : {
 							"gold" : -3000
 						},
-						"appearChance": 
-						{
-							"dice": 3,
+						"appearChance" : {
+							"dice" : 3,
 							"min" : 50,
 							"max" : 85
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 3000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							}
 						},
-						"message": "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
-					},  
-                    {
-						"artifacts": 
-							["bonerPurple"],
+						"message" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n{#8052ad|Hallowed Powerbone} is also in stock, but you don't have enough gold (5000).\n*Only ONE ITEM per CUSTOMER!*"
+					},
+					{
+						"artifacts" : [
+							"bonerPurple"
+						],
 						"resources" : {
 							"gold" : -5000
 						},
-						"appearChance": 
-						{
-							"dice": 1,
+						"appearChance" : {
+							"dice" : 1,
 							"min" : 85,
 							"max" : 99
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 5000
+							}
 						}
-                    }, 
-                    {
-						"artifacts": 
-							["bonerPurple"],
+					},
+					{
+						"artifacts" : [
+							"bonerPurple"
+						],
 						"resources" : {
 							"gold" : -5000
 						},
-						"appearChance": 
-						{
-							"dice": 2,
+						"appearChance" : {
+							"dice" : 2,
 							"min" : 85,
 							"max" : 99
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 5000
+							}
 						}
-                    }, 
-                    {
-						"artifacts": 
-							["bonerPurple"],
+					},
+					{
+						"artifacts" : [
+							"bonerPurple"
+						],
 						"resources" : {
 							"gold" : -5000
 						},
-						"appearChance": 
-						{
-							"dice": 3,
+						"appearChance" : {
+							"dice" : 3,
 							"min" : 85,
 							"max" : 99
 						},
-						"limiter": 
-						{
-							"resources" : {"gold" : 5000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 5000
+							}
 						}
 					}
-
-                ],
+				],
 				"onSelectMessage" : "{Bonepeddler's Cart}\r\n\r\n'I have a BONE to pick with you!' a cheerful Bonepeddler invites you to browse his wares.\n\n({#2d9726|Lesser Powerbone}: 1500 gold.\n{#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)\n*Only ONE ITEM per CUSTOMER!*",
-                "onVisitedMessage": "{Bonepeddler's Cart}\r\n\r\n'I don't have a BONE to throw you, get lost!' you're politely reminded about the Bonepeddler's policy of one item per customer. Come back next week.",
+				"onVisitedMessage" : "{Bonepeddler's Cart}\r\n\r\n'I don't have a BONE to throw you, get lost!' you're politely reminded about the Bonepeddler's policy of one item per customer. Come back next week.",
 				//"onEmptyMessage": "{Bonepeddler's Cart}\r\n\r\n'Don't rattle me BONES!!!' the Bonepeddler has either ran out of his stock, or you can't afford his services. Come back with more gold or check next week.\n(Lesser Powerbone: 1500 gold.\nGreater Powerbone: 3000 gold.\nHallowed Powerbone: 5000 gold.)",
-				"onEmptyMessage": "{Bonepeddler's Cart}\r\n\r\n'Don't rattle me BONES!!!' with great sadness in his voice, the Bonepeddler informs you that you can't afford his services. Come back with more gold.\n\n({#2d9726|Lesser Powerbone}: 1500 gold.\n{#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)",
-                "visitMode" : "hero",
+				"onEmptyMessage" : "{Bonepeddler's Cart}\r\n\r\n'Don't rattle me BONES!!!' with great sadness in his voice, the Bonepeddler informs you that you can't afford his services. Come back with more gold.\n\n({#2d9726|Lesser Powerbone}: 1500 gold.\n{#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)",
+				"visitMode" : "hero",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true,
 					"rewards" : true
-				},    
-				"canRefuse": true,
+				},
+				"canRefuse" : true,
 				"selectMode" : "selectPlayer",
-                "templates" :
-                {
-                    "default" :
-                    {
-                        "animation" : "newpb/bonepeddlerCart", 
-                        "mask" : [ "VVV","VAB" ], 
-                        "visitableFrom" : [ "---", "+++", "+++" ]
-                    }
-                }
-            }
-        }
-    }
+				"templates" : {
+					"default" : {
+						"animation" : "newpb/bonepeddlerCart",
+						"mask" : [
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
 }

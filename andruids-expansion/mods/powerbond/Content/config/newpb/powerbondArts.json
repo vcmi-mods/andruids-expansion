@@ -1,29 +1,31 @@
-{		
-	"bonerGreen":
-	{
+{
+	"bonerGreen" : {
 		"bonuses" : {
-			"spellAfterAttack" :
-			{
+			"spellAfterAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"addInfo" : [0,2],
+				"addInfo" : [
+					0,
+					2
+				],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 10
 			},
-			"specificSpellPower" :
-			{
+			"specificSpellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
 		},
-		"type" : ["CREATURE"],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "TREASURE",
 		"slot" : "MISC",
 		"value" : 1500,
-		"graphics" : { 
+		"graphics" : {
 			"image" : "newpb/bone1",
-			"scenarioBonus" : "newpb/bone1camp", 
+			"scenarioBonus" : "newpb/bone1camp",
 			"map" : "newpb/bone1Map"
 		},
 		"text" : {
@@ -33,31 +35,33 @@
 		}
 	},
 
-	"bonerRed":
-	{
+	"bonerRed" : {
 		"bonuses" : {
-			"spellAfterAttack" :
-			{
+			"spellAfterAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"addInfo" : [0,2],
+				"addInfo" : [
+					0,
+					2
+				],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 20
 			},
-			"specificSpellPower" :
-			{
+			"specificSpellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
 		},
-		"type" : ["CREATURE"],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "TREASURE",
 		"slot" : "MISC",
 		"value" : 3000,
-		"graphics" : { 
+		"graphics" : {
 			"image" : "newpb/bone2",
-			"scenarioBonus" : "newpb/bone2camp", 
+			"scenarioBonus" : "newpb/bone2camp",
 			"map" : "newpb/bone2Map"
 		},
 		"text" : {
@@ -67,35 +71,37 @@
 		}
 	},
 
-	"bonerPurple":
-	{
+	"bonerPurple" : {
 		"bonuses" : {
-			"spellAfterAttack" :
-			{
+			"spellAfterAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"addInfo" : [0,2],
+				"addInfo" : [
+					0,
+					2
+				],
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 30
 			},
-			"specificSpellPower" :
-			{
+			"specificSpellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.newpowerbondFist",
 				"val" : 2,
 				"stacking" : "powerbound value"
 			}
 		},
-		"type" : ["CREATURE"],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "MINOR",
 		"slot" : "MISC",
 		"value" : 4500,
-		"graphics" : { 
+		"graphics" : {
 			"image" : "newpb/bone3",
-			"scenarioBonus" : "newpb/bone3camp", 
+			"scenarioBonus" : "newpb/bone3camp",
 			"map" : "newpb/bone3Map"
 		},
 		"text" : {
-//			"description" : "{#8052ad|Hallowed Powerbone}\r\n\r\nStack equipped with this curio has 30% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic coursing through powerbound creatures slowly accumulates in one of their bones. It can still be harnessed long after their last breath.}",
+			//			"description" : "{#8052ad|Hallowed Powerbone}\r\n\r\nStack equipped with this curio has 30% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic coursing through powerbound creatures slowly accumulates in one of their bones. It can still be harnessed long after their last breath.}",
 			"description" : "{#8052ad|Hallowed Powerbone}\r\n\r\nStack equipped with this curio has 30% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic that accumulates in the bones of powerbound servants can still be harnessed long after they have drawn their last breath.}",
 			"event" : "You pick up a large bone wrapped in ornamental purple cloth. Upon closer inspection, it turns out to be a useful trinket. Give it to one stack of your troops.",
 			"name" : "Hallowed Powerbone"

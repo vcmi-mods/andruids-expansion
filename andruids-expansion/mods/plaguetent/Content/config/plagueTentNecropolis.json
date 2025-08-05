@@ -1,17 +1,11 @@
 {
-	"core:necropolis" :
-	{
-		"town" :
-		{
-					
-			"buildings" :
-			{
-				"blacksmith" :
-				{
-					"warMachine" : "plagueTent",	
+	"core:necropolis" : {
+		"town" : {
+			"buildings" : {
+				"blacksmith" : {
+					"warMachine" : "plagueTent",
 					"description" : "The Blacksmith provides your armies with Plague Tents."
 				}
-				
 			}
 		}
 	}

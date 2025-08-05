@@ -7,27 +7,26 @@
 	"modType" : "Objects",
 	"name" : "Damned Utopia",
 	"version" : "1.0",
-	
-	"changelog" :
-    	{
-		"1.0"   : [ "Initial release" ]
-    	},
+
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
 	"chinese" : {
-		"name": "被诅咒的龙之国",
-		"description": "新宝物，死灵龙之国的def从fred的新物体包里取得，血龙的def由 don_kommandore制作，龙巫妖的def由Wog团队制作。"	
+		"name" : "被诅咒的龙之国",
+		"description" : "新宝物，死灵龙之国的def从fred的新物体包里取得，血龙的def由 don_kommandore制作，龙巫妖的def由Wog团队制作。"
 	},
 	"czech" : {
-		"name": "Prokletá utopie",
-		"description": "Nový objekt s odměnou bráněný Krvavými draky a Drakolichy. Vzhled objektu byl převzat z balíčku objektů od Freda, Krvavého draka vytvořil don_kommandore a Drakolicha Wog Team."	
+		"name" : "Prokletá utopie",
+		"description" : "Nový objekt s odměnou bráněný Krvavými draky a Drakolichy. Vzhled objektu byl převzat z balíčku objektů od Freda, Krvavého draka vytvořil don_kommandore a Drakolicha Wog Team."
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/damnedDracolich",
 		"config/damnedBlooddragon"
 	],
 
-	"objects" :
-    [ 
+	"objects" : [
 		"config/damnedUtopia"
-    ]	
+	]
 }

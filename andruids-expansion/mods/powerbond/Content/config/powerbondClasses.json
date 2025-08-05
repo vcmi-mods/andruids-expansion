@@ -1,54 +1,45 @@
 {
-	"core:cleric" :
-	{
+	"core:cleric" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 3
 		}
 	},
-	"core:druid" :
-	{
+	"core:druid" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 2
 		}
 	},
-	"core:wizard" :
-	{
+	"core:wizard" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 4
 		}
 	},
-	"core:heretic" :
-	{
+	"core:heretic" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 4
 		}
 	},
-	"core:necromancer" :
-	{
+	"core:necromancer" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 3
 		}
 	},
-	"core:warlock" :
-	{
+	"core:warlock" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 2
 		}
 	},
-	"core:battlemage" :
-	{
+	"core:battlemage" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 2
 		}
 	},
-	"core:witch" :
-	{
+	"core:witch" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 2
 		}
 	},
-	"core:elementalist" :
-	{
+	"core:elementalist" : {
 		"secondarySkills" : {
 			"andruids-expansion.powerbond:powerbond" : 3
 		}

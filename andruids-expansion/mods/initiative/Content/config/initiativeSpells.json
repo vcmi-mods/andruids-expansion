@@ -1,71 +1,71 @@
 {
-	"battleInitiative" : 
-	{
-		"type": "ability",
-		
+	"battleInitiative" : {
+		"type" : "ability",
+
 		"targetType" : "CREATURE",
 		"name" : "Initiative Boost",
-		"school": {"air":false, "earth":false, "fire":false, "water":false},
-		"level": 1,
-		"power": 3,
-		"defaultGainChance": 0, 		
-		"gainChance":{},
-		"counters": {},		
-		"graphics":
-		{
-			"iconEffect": "battleInitiativeEffect"
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"levels" : 
-			{
-			
-			"base":{
-				"description": "Speed of creatures in hero army is increased (but not movement).",
-				"cost": 0,
-				"power": 3,
-//				"aiValue": 0,
+		"level" : 1,
+		"power" : 3,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"counters" : {},
+		"graphics" : {
+			"iconEffect" : "battleInitiativeEffect"
+		},
+		"levels" : {
+			"base" : {
+				"description" : "Speed of creatures in hero army is increased (but not movement).",
+				"cost" : 0,
+				"power" : 3,
+				//				"aiValue": 0,
 				"range" : "0",
-				"targetModifier":{"smart":false},
+				"targetModifier" : {
+					"smart" : false
+				},
 				"effects" : {
 					"initiativeBoost" : {
-//						"addInfo" : 0,
+						//						"addInfo" : 0,
 						"val" : 19,
 						"valueType" : "PERCENT_TO_ALL",
 						"type" : "STACKS_SPEED",
 						"duration" : "STACK_GETS_TURN"
 					},
 					"initiativeFlat" : {
-//						"addInfo" : 0,
+						//						"addInfo" : 0,
 						"val" : 1,
 						"valueType" : "BASE_NUMBER",
 						"type" : "STACKS_SPEED",
 						"duration" : "STACK_GETS_TURN"
-					}					
 					}
-					},
-					
-					"none":
-					{},
-					"basic":
-					{},
-					"advanced":
-					{
-						"effects" : {
-							"initiativeBoost" : {
-								"val" : 34
-							}
-							}},
-					"expert":
-					{
-						"effects" : {
-							"initiativeBoost" : {
-								"val" : 49
-							}
-							}}	
+				}
+			},
+
+			"none" : {},
+			"basic" : {},
+			"advanced" : {
+				"effects" : {
+					"initiativeBoost" : {
+						"val" : 34
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"initiativeBoost" : {
+						"val" : 49
+					}
+				}
+			}
 		},
-		"targetCondition" : {
-	},		
+		"targetCondition" : {},
 		"flags" : {
-			"positive": true
+			"positive" : true
 		}
 	}
 }

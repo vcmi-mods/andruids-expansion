@@ -4,8 +4,8 @@
 	"creatures.andruids-expansion.damned utopia.damnedDracolich.name.plural" : "Подземные Драколичи",
 	"creatures.andruids-expansion.damned utopia.damnedDracolich.name.singular" : "Подземный Драколич",
 	"creatures.andruids-expansion.minotaur warlock.mWmedusaQueen.name.plural" : "Медуза Королева",
-    "creatures.andruids-expansion.minotaur warlock.mWmedusaQueen.name.singular" : "Королева Медузы",
-    "hero.andruids-expansion.minotaur warlock.new mino warlock.sullivanMW.biography" : "Салливан был верным слугой короля Энрота Аламы, и в награду его хозяин начал обучать его продвинутой магии. Вскоре его потенциал раскрывается, и его стремление к большей власти затмевает его прежнюю преданность и эмоции. Теперь Салливан — великий колдун и самый жестокий соперник короля Аламы.",
+	"creatures.andruids-expansion.minotaur warlock.mWmedusaQueen.name.singular" : "Королева Медузы",
+	"hero.andruids-expansion.minotaur warlock.new mino warlock.sullivanMW.biography" : "Салливан был верным слугой короля Энрота Аламы, и в награду его хозяин начал обучать его продвинутой магии. Вскоре его потенциал раскрывается, и его стремление к большей власти затмевает его прежнюю преданность и эмоции. Теперь Салливан — великий колдун и самый жестокий соперник короля Аламы.",
 	"hero.andruids-expansion.minotaur warlock.new mino warlock.sullivanMW.name" : "Салливан",
 	"hero.andruids-expansion.minotaur warlock.new mino warlock.sullivanMW.specialty.description" : "Получите дополнительный бонус 5% за уровень Усиления.",
 	"hero.andruids-expansion.minotaur warlock.new mino warlock.sullivanMW.specialty.name" : "Усиление",
@@ -16,7 +16,7 @@
 	"hero.andruids-expansion.plaguetent.bubonic.specialty.name" : "Чумная палатка",
 	"hero.andruids-expansion.plaguetent.bubonic.specialty.tooltip" : "Биоусиление: Чумная палатка",
 	"heroClass.andruids-expansion.minotaur warlock.minoWarlock.name" : "Волшебник бык",
-    "mapObject.andruids-expansion.damned utopia.creatureBank.damnedUtopia.name": "Королевство Проклятого Дракона",
+	"mapObject.andruids-expansion.damned utopia.creatureBank.damnedUtopia.name" : "Королевство Проклятого Дракона",
 	"skill.andruids-expansion.initiative.initiative.description.advanced" : "{Промежуточная инициатива}\n\nСкорость существ, возглавляемых героем, увеличивается на 20% (не влияет на перемещение по карте).",
 	"skill.andruids-expansion.initiative.initiative.description.basic" : "{Первичная инициатива}\n\nСкорость существ, возглавляемых героем, увеличивается на 10% (не влияет на передвижение по карте).",
 	"skill.andruids-expansion.initiative.initiative.description.expert" : "{Передовая инициатива}\n\nСкорость существ во главе с героем увеличивается на 30% (не влияет на мобильность по карте).",
@@ -42,5 +42,5 @@
 	"creatures.andruids-expansion.plaguetent.plagueTentCreature.name.plural" : "Чумные палатки",
 	"creatures.andruids-expansion.plaguetent.plagueTentCreature.name.singular" : "Чумная палатка",
 	"artifact.andruids-expansion.plaguetent.plagueTentArtifact.event" : "Чумная палатка — источник чумы, пожирающей ваших врагов.",
-	"artifact.andruids-expansion.plaguetent.plagueTentArtifact.description" : "{Чумная палатка}\r\n\r\nМучите своих врагов чумой, и есть небольшой шанс выпустить в них яд.",
+	"artifact.andruids-expansion.plaguetent.plagueTentArtifact.description" : "{Чумная палатка}\r\n\r\nМучите своих врагов чумой, и есть небольшой шанс выпустить в них яд."
 }

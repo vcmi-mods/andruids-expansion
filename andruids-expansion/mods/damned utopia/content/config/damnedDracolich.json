@@ -1,44 +1,36 @@
 {
-	"damnedDracolich":
-	{
-		"name" : 
-		{
+	"damnedDracolich" : {
+		"name" : {
 			"plural" : "Dracoliches",
 			"singular" : "Dracolich"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 2,
 			"min" : 1
 		},
 		"faction" : "necropolis",
-		"special" : true, 
+		"special" : true,
 		"aiValue" : 15750,
 		"attack" : 45,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 25000,
 			"mercury" : 15
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 80,
 			"min" : 50
 		},
 		"defense" : 45,
 		"fightValue" : 17750,
-		"graphics" :
-		{
-			"animation": 	"dracolich.DEF",
-			"map" : 		"dracolichS.DEF",
-			"iconSmall" : 	"dracolichSMALL.bmp",
-			"iconLarge" : 	"dracolichBIG.bmp",
-			"missile" :
-			{
-				"projectile": "dracolichSHOT.DEF",
+		"graphics" : {
+			"animation" : "dracolich.DEF",
+			"map" : "dracolichS.DEF",
+			"iconSmall" : "dracolichSMALL.bmp",
+			"iconLarge" : "dracolichBIG.bmp",
+			"missile" : {
+				"projectile" : "dracolichSHOT.DEF",
 				"attackClimaxFrame" : 5,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -46,14 +38,26 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]				
-			},			
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			},
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"shots" : 4,
@@ -61,59 +65,50 @@
 		"hitPoints" : 800,
 		"level" : 10,
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "GHDRATTK.wav",
-			"defend": "GHDRDFND.wav",
-			"killed": "GHDRKILL.wav",
-			"move": "GHDRMOVE.wav",
-			"shoot": "GHDRSHOT.wav",
-			"wince": "GHDRWNCE.wav"
+		"sound" : {
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"shoot" : "GHDRSHOT.wav",
+			"wince" : "GHDRWNCE.wav"
 		},
 		"speed" : 16,
-		"abilities":
-		{
-			"dragon" : 
-			{
+		"abilities" : {
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"descreaseMorale" :
-			{
-				"propagator": "BATTLE_WIDE",
+			"descreaseMorale" : {
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "MORALE", 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"type" : "MORALE",
 				"val" : -1,
 				"stacking" : "Undead Dragons"
 			},
-			"dragonBreath" :
-			{
+			"dragonBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"deathCloud" :
-			{
+			"deathCloud" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.deathCloud"
 			},
-			"canShoot" :
-			{
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"king1" :
-			{
+			"king1" : {
 				"type" : "KING",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		}	
-
+		}
 	}
 }

@@ -1,87 +1,86 @@
 {
-	"minoWarlock" : 
-	{
-		"animation" :
-		{
-			"battle" : 
-			{
+	"minoWarlock" : {
+		"animation" : {
+			"battle" : {
 				"female" : "MinoWarlockBattle",
-				"male"   : "MinoWarlockBattle"
+				"male" : "MinoWarlockBattle"
 			}
 		},
-		"mapObject" : { "templates" : { "default" : { "animation" : "MinoWarlockMap", "editorAnimation": "MinoWarlockEditor" } } },
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "MinoWarlockMap",
+					"editorAnimation" : "MinoWarlockEditor"
+				}
+			}
+		},
 		"name" : "Minotaur Warlock",
-		
+
 		"affinity" : "magic",
-		
+
 		"commander" : "mWmedusaQueen",
 
 		"faction" : "dungeon",
 
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 0,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
 			"spellpower" : 3,
-			"knowledge"  : 2
+			"knowledge" : 2
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 10,
-			"defence"    : 10,
+		"lowLevelChance" : {
+			"attack" : 10,
+			"defence" : 10,
 			"spellpower" : 50,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
 			"spellpower" : 30,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"secondarySkills" :
-		{
-			"offence"      : 1,
-			"archery"      : 2,
-			"artillery"    : 1,
-			"ballistics"   : 6,
-			"firstAid"     : 6,
-			"armorer"      : 1,
-			"resistance"   : 0,
-			"tactics"      : 1,
-			"leadership"   : 3,
-			"luck"         : 2,
-			"navigation"   : 4,
-			"logistics"    : 2,
-			"pathfinding"  : 2,
-			"scouting"     : 2,
-			"estates"      : 5,
-			"diplomacy"    : 4,
-			"necromancy"   : 0,
-			"learning"     : 4,
-			"wisdom"       : 10,
-			"fireMagic"    : 5,
-			"waterMagic"   : 2,
-			"earthMagic"   : 5,
-			"airMagic"     : 2,
-			"sorcery"      : 10,
+		"secondarySkills" : {
+			"offence" : 1,
+			"archery" : 2,
+			"artillery" : 1,
+			"ballistics" : 6,
+			"firstAid" : 6,
+			"armorer" : 1,
+			"resistance" : 0,
+			"tactics" : 1,
+			"leadership" : 3,
+			"luck" : 2,
+			"navigation" : 4,
+			"logistics" : 2,
+			"pathfinding" : 2,
+			"scouting" : 2,
+			"estates" : 5,
+			"diplomacy" : 4,
+			"necromancy" : 0,
+			"learning" : 4,
+			"wisdom" : 10,
+			"fireMagic" : 5,
+			"waterMagic" : 2,
+			"earthMagic" : 5,
+			"airMagic" : 2,
+			"sorcery" : 10,
 			"intelligence" : 8,
-			"mysticism"    : 8,
-			"scholar"      : 8,
-			"eagleEye"     : 8
+			"mysticism" : 8,
+			"scholar" : 8,
+			"eagleEye" : 8
 		},
 		"defaultTavern" : 0,
-		"tavern" :
-		{
-			"castle"     : 0,
-			"rampart"    : 1,
-			"tower"      : 0,
-			"inferno"    : 0,
+		"tavern" : {
+			"castle" : 0,
+			"rampart" : 1,
+			"tower" : 0,
+			"inferno" : 0,
 			"necropolis" : 1,
-			"dungeon"    : 2,
+			"dungeon" : 2,
 			"stronghold" : 0,
-			"fortress"   : 0,
-			"conflux"    : 0			
+			"fortress" : 0,
+			"conflux" : 0
 		}
 	}
 }

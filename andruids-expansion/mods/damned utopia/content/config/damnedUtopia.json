@@ -1,118 +1,249 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"damnedUtopia" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"damnedUtopia" : {
 				"name" : "Damned Utopia",
 				"templates" : {
-					"base" : { 
-					"animation" : "damnedUtopia", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"allowedTerrains": [ "subterra", "dirt", "rough" ], 
-					"mask" : [ "VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBV", "VVVBBAV" ]
+					"base" : {
+						"animation" : "damnedUtopia",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"dirt",
+							"rough"
+						],
+						"mask" : [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVBBBB",
+							"VBBBBBV",
+							"VVVBBAV"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 7500,
-					"rarity"	: 75
+					"value" : 7500,
+					"rarity" : 75
 				},
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards": [
-				{
-					"message" : 34,
-					"appearChance" : { "min" : 95, "max" : 100 },
-					"guards": [
-							{ "amount": 8, "type" : "boneDragon" },
-							{ "amount": 8, "type" : "boneDragon" },
-							{ "amount": 8, "type" : "boneDragon" },
-							{ "amount": 8, "type" : "boneDragon" },	
-							{ "amount": 1, "type" : "damnedDracolich" }				
-					],
-					"resources": 
+				"rewards" : [
 					{
-						"gold" : 30000
+						"message" : 34,
+						"appearChance" : {
+							"min" : 95,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 8,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 8,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 8,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 1,
+								"type" : "damnedDracolich"
+							}
+						],
+						"resources" : {
+							"gold" : 30000
+						},
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "damnedBloodDragon"
+							}
+						],
+						"artifacts" : [
+							"armorOfTheDamned"
+						]
 					},
-					"creatures" : [ {"amount": 4, "type": "damnedBloodDragon" } ],
-					"artifacts": ["armorOfTheDamned"]
-				},
-					
-				{
-					"message" : 34,
-					"appearChance" : { "min" : 85, "max" : 95 },
-					"guards": [
-						{ "amount": 7, "type" : "boneDragon" },
-						{ "amount": 7, "type" : "boneDragon" },
-						{ "amount": 7, "type" : "boneDragon" },
-						{ "amount": 7, "type" : "boneDragon" },
-						{ "amount": 25, "type" : "powerLich" }			
-					],
-					"resources": 
+
 					{
-						"gold" : 25000
+						"message" : 34,
+						"appearChance" : {
+							"min" : 85,
+							"max" : 95
+						},
+						"guards" : [
+							{
+								"amount" : 7,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 7,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 7,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 7,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 25,
+								"type" : "powerLich"
+							}
+						],
+						"resources" : {
+							"gold" : 25000
+						},
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "ghostDragon"
+							}
+						],
+						"artifacts" : [
+							"armorOfTheDamned"
+						]
 					},
-					"creatures" : [ {"amount": 4, "type": "ghostDragon" } ],
-					"artifacts": ["armorOfTheDamned"]
-				},
-				
-				{
-					"message" : 34,
-					"appearChance" : { "min" : 60, "max" : 85 },
-					"guards": [
-						{ "amount": 6, "type" : "boneDragon" },
-						{ "amount": 6, "type" : "boneDragon" },
-						{ "amount": 6, "type" : "boneDragon" },	
-						{ "amount": 6, "type" : "boneDragon" },
-						{ "amount": 20, "type" : "lich" }
-					],
-					"resources": 
+
 					{
-						"gold" : 20000
+						"message" : 34,
+						"appearChance" : {
+							"min" : 60,
+							"max" : 85
+						},
+						"guards" : [
+							{
+								"amount" : 6,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 6,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 6,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 6,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 20,
+								"type" : "lich"
+							}
+						],
+						"resources" : {
+							"gold" : 20000
+						},
+						"creatures" : [
+							{
+								"amount" : 3,
+								"type" : "ghostDragon"
+							}
+						],
+						"artifacts" : [
+							"armorOfTheDamned"
+						]
 					},
-					"creatures" : [ { "amount": 3, "type": "ghostDragon" } ],
-					"artifacts": ["armorOfTheDamned"]
-					},
-					
+
 					{
-					"message" : 34,
-					"appearChance" : { "min" : 30, "max" : 60 },
-					"guards": [
-						{ "amount": 5, "type" : "boneDragon" },
-						{ "amount": 5, "type" : "boneDragon" },
-						{ "amount": 5, "type" : "boneDragon" },	
-						{ "amount": 5, "type" : "boneDragon" },
-						{ "amount": 15, "type" : "lich" }					
-					],
-					"resources": 
-					{
-						"gold" : 15000
+						"message" : 34,
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 5,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 5,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 5,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 5,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 15,
+								"type" : "lich"
+							}
+						],
+						"resources" : {
+							"gold" : 15000
+						},
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "ghostDragon"
+							}
+						],
+						"artifacts" : [
+							"armorOfTheDamned"
+						]
 					},
-					"creatures" : [ { "amount": 2, "type": "ghostDragon" } ],							
-					"artifacts": ["armorOfTheDamned"]
-					},
-					
+
 					{
-					"message" : 34,
-					"appearChance" : { "min" : 0, "max" : 30 },
-					"guards": [
-						{ "amount": 4, "type" : "boneDragon" },
-						{ "amount": 4, "type" : "boneDragon" },
-						{ "amount": 4, "type" : "boneDragon" },
-						{ "amount": 4, "type" : "boneDragon" },
-						{ "amount": 10, "type" : "lich" }							
-					],
-					"resources": 
-					{
-						"gold" : 10000
-					},
-					"creatures" : [ { "amount": 1, "type": "ghostDragon" } ],
-					"artifacts": ["armorOfTheDamned"]			
-					}																		
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 4,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 4,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 4,
+								"type" : "boneDragon"
+							},
+							{
+								"amount" : 10,
+								"type" : "lich"
+							}
+						],
+						"resources" : {
+							"gold" : 10000
+						},
+						"creatures" : [
+							{
+								"amount" : 1,
+								"type" : "ghostDragon"
+							}
+						],
+						"artifacts" : [
+							"armorOfTheDamned"
+						]
+					}
 				]
 			}
 		}

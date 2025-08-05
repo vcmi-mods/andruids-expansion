@@ -5,13 +5,11 @@
 	"contact" : "madaosoul@gmail.com",
 	"version" : "2.0",
 	"modType" : "Compatibility",
-	"depends" :
-	[
-		"andruids-expansion.powerbond", 
+	"depends" : [
+		"andruids-expansion.powerbond",
 		"andruids-expansion.minotaur warlock"
 	],
-	"heroes" :
-	[
-		"SullivanMinoWarlock.json"		
+	"heroes" : [
+		"SullivanMinoWarlock.json"
 	]
 }

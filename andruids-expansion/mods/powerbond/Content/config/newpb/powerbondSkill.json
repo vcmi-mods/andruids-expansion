@@ -7,10 +7,8 @@
 			"magic" : 3
 		},
 
-
 		"base" : {
 			"effects" : {
-
 				//"charge" : {
 				//	"type" : "ENCHANTED",
 				//	"subtype" : "spell.newpowerbondEnable"
@@ -20,10 +18,13 @@
 					"type" : "SPELL_AFTER_ATTACK",
 					//"updater" : "TIMES_STACK_LEVEL",
 					//"val" : 15,
-					"addInfo" : [0,2],
+					"addInfo" : [
+						0,
+						2
+					],
 					"subtype" : "spell.newpowerbondFist"
 				},
-				
+
 				"attackpower" : {
 					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "spell.newpowerbondFist",
@@ -36,14 +37,23 @@
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
 					//"limiters": [ "anyOf",	{"type":"HAS_ANOTHER_BONUS_LIMITER", "parameters": [ "CASTS" ]	} ]
-					
-				"limiters": [ 
-					"anyOf", 
-					{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "SPELLCASTER"]	},
-					{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "ENCHANTER"]	} ]
+
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"SPELLCASTER"
+							]
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ENCHANTER"
+							]
+						}
+					]
 				}
-
-
 			}
 		},
 		"basic" : {

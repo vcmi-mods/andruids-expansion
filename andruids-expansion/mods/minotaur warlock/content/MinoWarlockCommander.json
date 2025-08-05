@@ -1,8 +1,6 @@
 {
-	"mWmedusaQueen":
-	{
-		"name" :
-		{
+	"mWmedusaQueen" : {
+		"name" : {
 			"plural" : "Medusa Queens",
 			"singular" : "Medusa Queen"
 		},
@@ -10,36 +8,30 @@
 		"faction" : "dungeon",
 		"aiValue" : 1021,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"cost" :
-		{
-			 "gold" : 1500
-		},		
+		"cost" : {
+			"gold" : 1500
+		},
 		"defense" : 5,
 		"fightValue" : 916,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "CMEDUQ.def",
 			"map" : "AVWMEDX0.def",
 			"iconSmall" : "CPrSm079.png",
 			"iconLarge" : "CPrL079.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PMEDUSX.DEF",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -47,8 +39,20 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 1,
@@ -56,35 +60,33 @@
 		"level" : 0,
 		"shots" : 24,
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "MEDQATTK.wav",
-			"defend": "MEDQDFND.wav",
-			"killed": "MEDQKILL.wav",
-			"move": "MEDQMOVE.wav",
-			"shoot": "MEDQSHOT.wav",
-			"wince": "MEDQWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "MEDQATTK.wav",
+			"defend" : "MEDQDFND.wav",
+			"killed" : "MEDQKILL.wav",
+			"move" : "MEDQMOVE.wav",
+			"shoot" : "MEDQSHOT.wav",
+			"wince" : "MEDQWNCE.wav"
+		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"noPenalty" :
-			{
+			"noPenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"petrification" :
-			{
+			"petrification" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "stoneGaze",
 				"val" : 20,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			}
-	    }
+		}
 	}
 }

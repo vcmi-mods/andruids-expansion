@@ -5,27 +5,22 @@
 	"contact" : "madaosoul@gmail.com",
 	"version" : "1.0",
 	"modType" : "Heroes",
-	"depends" :
-	[
-	],
-    "chinese" : {
-		"name": "牛头人术士",
-		"description": "这个模组为地下城的牛头人英雄添加新动画。"
+	"depends" : [],
+	"chinese" : {
+		"name" : "牛头人术士",
+		"description" : "这个模组为地下城的牛头人英雄添加新动画。"
 	},
 	"czech" : {
-		"name": "Minotauří čaroděj",
-		"description": "Modifikace, která přidává novou animaci pro Minotauří čaroděje z Kobky."
+		"name" : "Minotauří čaroděj",
+		"description" : "Modifikace, která přidává novou animaci pro Minotauří čaroděje z Kobky."
 	},
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"MinoWarlockClass.json"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"MinoWarlockHeroes.json"
 	],
-	"creatures" :
-	[
-        "MinoWarlockCommander.json"
+	"creatures" : [
+		"MinoWarlockCommander.json"
 	]
 }

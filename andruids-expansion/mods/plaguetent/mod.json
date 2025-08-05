@@ -1,25 +1,25 @@
 {
 	"name" : "Plague Tent",
 	"description" : "A new War Machine for Necropolis Faction and a new Hero who starts and specialises with it. The Plague Tent casts accumulating disease or poison at the target enemy. It only works on living creatures!",
-	"author": "Andruids, Trith",
+	"author" : "Andruids, Trith",
 	"version" : "1.0",
-	"contact": "madaosoul@gmail.com",
+	"contact" : "madaosoul@gmail.com",
 	"modType" : "Creatures",
 	"chinese" : {
-		"name": "瘟疫帐篷",
-		"description": "为墓园种族新增了一台战争机器以及一位初始自带瘟疫帐篷并特长它的英雄。瘟疫帐篷会对目标敌人释放可叠加的疾病或毒素效果，但仅对活物生效！",
+		"name" : "瘟疫帐篷",
+		"description" : "为墓园种族新增了一台战争机器以及一位初始自带瘟疫帐篷并特长它的英雄。瘟疫帐篷会对目标敌人释放可叠加的疾病或毒素效果，但仅对活物生效！",
 		"translations" : [
 			"translation/plaguetent/chinese.json"
 		]
 	},
 	"czech" : {
-		"name": "Morový stan",
-		"description": "Nový bojový stroj Morový stan pro Nekropolis. Přidává také nového hrdinu, který se na něj specializuje. Morový stan zasahuje vybraného nepřítele postupující nemocí nebo jedem. Funguje pouze na živé bytosti!",
+		"name" : "Morový stan",
+		"description" : "Nový bojový stroj Morový stan pro Nekropolis. Přidává také nového hrdinu, který se na něj specializuje. Morový stan zasahuje vybraného nepřítele postupující nemocí nebo jedem. Funguje pouze na živé bytosti!",
 		"translations" : [
 			"translation/plaguetent/czech.json"
 		]
 	},
-	
+
 	"polish" : {
 		"name" : "Namiot Zarazy",
 		"description" : "Nowa machina wojenna dla frakcji Nekropolii i nowy bohater, który zaczyna i specjalizuje się w jej obsłudze. Namiot Plagi rzuca na wroga kumulującą się chorobę lub truciznę. Działa tylko na żywe stworzenia!",
@@ -27,24 +27,19 @@
 			"translation/plaguetent/polish.json"
 		]
 	},
-	"factions" :
-		[
+	"factions" : [
 		"config/plagueTentNecropolis.json"
-		],
-      "creatures" :
-        [
-        "config/plagueTentCreature.json"
-        ],
-	"artifacts":
-        [              
-        "config/plagueTentArtifact.json"        
-        ],
-	"spells":
-        [              
-        "config/plagueTentSpells.json" 
-        ],
-    "heroes" :
-        [
+	],
+	"creatures" : [
+		"config/plagueTentCreature.json"
+	],
+	"artifacts" : [
+		"config/plagueTentArtifact.json"
+	],
+	"spells" : [
+		"config/plagueTentSpells.json"
+	],
+	"heroes" : [
 		"config/plagueTentHeroes.json"
-        ]
+	]
 }

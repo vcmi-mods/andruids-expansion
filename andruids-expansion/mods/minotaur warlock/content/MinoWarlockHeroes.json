@@ -1,14 +1,11 @@
 {
-	"core:darkstorn" :
-	{
+	"core:darkstorn" : {
 		"class" : "minoWarlock"
 	},
-	"core:deemer" :
-	{
+	"core:deemer" : {
 		"class" : "minoWarlock"
 	},
-	"core:malekith" :
-	{
+	"core:malekith" : {
 		"class" : "minoWarlock"
 	}
 }

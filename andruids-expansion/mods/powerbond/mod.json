@@ -12,30 +12,31 @@
 	"spells" : [
 		"config/newpb/powerbondSpells.json"
 	],
-	
-	"artifacts" :
-	[
+
+	"artifacts" : [
 		"config/newpb/powerbondArts.json"
 	],
-	
-	"objects" :
-	[
+
+	"objects" : [
 		"config/newpb/powerbondObjs.json"
 	],
-	
-	"settings":
-	{
-		"modules":
-		{
-			"stackArtifact": true
+
+	"settings" : {
+		"modules" : {
+			"stackArtifact" : true
 		}
 	},
-	"changelog" :
-    	{
-		"2.1"   : [ "added the bonepeddler object" ],
-		"2.0"   : [ "total rework" ],
-		"1.0"   : [ "Initial release" ]
-    	},
+	"changelog" : {
+		"2.1" : [
+			"added the bonepeddler object"
+		],
+		"2.0" : [
+			"total rework"
+		],
+		"1.0" : [
+			"Initial release"
+		]
+	},
 	"czech" : {
 		"name" : "Magické pouto",
 		"description" : "Tato modifikace přidává novou dovednost, kterou se mohou naučit hrdinové zaměření na magii. Umožňuje jejich jednotkám využívat nadpřirozenou energii v boji na blízko a poskytuje jejich kouzelníkům +1 k sesílání kouzel. Největší prospěch z této schopnosti mají jednotky nižších úrovní. Navíc lze nalézt nebo koupit artefakty a přímo jimi vybavit jednotky, které tuto dovednost dále posilují."

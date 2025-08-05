@@ -1,72 +1,67 @@
 {
-  "sullivanMW" :
-  {
-    "class" : "minoWarlock",
-    "female" : false,
-    "special" : false,
-	"spellbook": ["fireball"],
-    "texts" :
-    {
-      "name" : "Sullivan",
-      "biography" : "Sullivan was a devoted servant of Lord Alamar in Enroth and as a reward, his master began teaching him magic. Soon, his potential became apparent, and lust for even more power obscured former loyalties and sentiments. Now, Sullivan is a great Warlock and Alamar's fiercest rival.", 
- 
-      "specialty" :
-      {
-        "description" : "Power unleashed by his powerbound creatures deals 3 damage instead of 2.",
-        "tooltip" : "Secondary Skill bonus: Powerbond",
-        "name" : "Powerbond"
-      }
-    },
+	"sullivanMW" : {
+		"class" : "minoWarlock",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Sullivan",
+			"biography" : "Sullivan was a devoted servant of Lord Alamar in Enroth and as a reward, his master began teaching him magic. Soon, his potential became apparent, and lust for even more power obscured former loyalties and sentiments. Now, Sullivan is a great Warlock and Alamar's fiercest rival.",
 
-    "images" :
-    {
-      "specialtySmall" : "Sullivan/specsmol",
-      "specialtyLarge" : "Sullivan/spec",
-      "large" : "Sullivan/Sullivan",
-      "small" : "Sullivan/Sullivansmol"
-    },
+			"specialty" : {
+				"description" : "Power unleashed by his powerbound creatures deals 3 damage instead of 2.",
+				"tooltip" : "Secondary Skill bonus: Powerbond",
+				"name" : "Powerbond"
+			}
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "troglodyte",
-        "max" : 40,
-        "min" : 30
-      },
-      {
-        "creature" : "harpy",
-        "max" : 6,
-        "min" : 4
-      },
-      {
-        "creature" : "beholder",
-        "max" : 4,
-        "min" : 3
-      }
-    ],
+		"images" : {
+			"specialtySmall" : "Sullivan/specsmol",
+			"specialtyLarge" : "Sullivan/spec",
+			"large" : "Sullivan/Sullivan",
+			"small" : "Sullivan/Sullivansmol"
+		},
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "powerbond"
-      }
-    ],
-    
-	"specialty" : {
-    "bonuses" : {
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "harpy",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "beholder",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-      "attackpower" : {
-        "type" : "SPECIFIC_SPELL_POWER",
-        "subtype" : "newpowerbondFist",
-        "val" : 1,
-        "valueType" : "ADDITIVE_VALUE"
-      }
-    }
-  }
-  }
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "powerbond"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"attackpower" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "newpowerbondFist",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	}
 }

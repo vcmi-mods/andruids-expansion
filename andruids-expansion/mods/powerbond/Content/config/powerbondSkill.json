@@ -12,10 +12,15 @@
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack",
 					"valueType" : "PERCENT_TO_BASE",
-					"limiters": [ "anyOf",	{	
-						"type":"HAS_ANOTHER_BONUS_LIMITER", 
-						"parameters": [ "SPELL_LIKE_ATTACK" ]	
-					}	 ]
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"SPELL_LIKE_ATTACK"
+							]
+						}
+					]
 				}
 			}
 		},
@@ -67,14 +72,17 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"limiters": [ "noneOf",
-						{	
-							"type":"HAS_ANOTHER_BONUS_LIMITER", 
-							"parameters": [ "SPELL_LIKE_ATTACK" ]	
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"SPELL_LIKE_ATTACK"
+							]
 						}
-					 ]
+					]
 				}
 			}
 		}
-	}	
+	}
 }

@@ -1,175 +1,233 @@
 {
-	"damnedBloodDragon":
-	{
-		"name" : 
-		{
+	"damnedBloodDragon" : {
+		"name" : {
 			"plural" : "Blood Dragons",
 			"singular" : "Blood Dragon"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"faction" : "necropolis",
-		"special" : true, 
+		"special" : true,
 		"aiValue" : 15750,
 		"attack" : 25,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 6000,
 			"mercury" : 2
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 60,
 			"min" : 35
 		},
 		"defense" : 23,
 		"fightValue" : 17750,
-		"graphics" :
-		{
-			"animation": 	"bloodDragon.DEF",
-			"map" : 		"bloodDragonS.DEF",
-			"iconSmall" : 	"bloodDragonSMALL.bmp",
-			"iconLarge" : 	"bloodDragonBIG.bmp",
+		"graphics" : {
+			"animation" : "bloodDragon.DEF",
+			"map" : "bloodDragonS.DEF",
+			"iconSmall" : "bloodDragonSMALL.bmp",
+			"iconLarge" : "bloodDragonBIG.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"growth" : 1,
 		"hitPoints" : 400,
 		"level" : 8,
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "GHDRATTK.wav",
-			"defend": "GHDRDFND.wav",
-			"killed": "GHDRKILL.wav",
-			"move": "GHDRMOVE.wav",
-			"wince": "GHDRWNCE.wav"
+		"sound" : {
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"wince" : "GHDRWNCE.wav"
 		},
 		"speed" : 14,
-		"abilities":
-		{
-			"worseMorale" :
-			{
+		"abilities" : {
+			"worseMorale" : {
 				"type" : "MORALE",
 				"val" : -1,
-				"propagator" : 	"HERO",
+				"propagator" : "HERO",
 				"stacking" : "Blood Dragons"
 			},
-			"drainsLife" : 
-			{
+			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 40
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"descreaseMorale" :
-			{
-				"propagator": "BATTLE_WIDE",
+			"descreaseMorale" : {
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "MORALE", 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"type" : "MORALE",
 				"val" : -1,
 				"stacking" : "Undead Dragons"
 			},
-			"moreDescreaseMorale" :
-			{
-				"propagator": "BATTLE_WIDE",
+			"moreDescreaseMorale" : {
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "MORALE", 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"type" : "MORALE",
 				"val" : -1,
 				"stacking" : "Blood Dragons"
 			},
-			"age" :
-			{
+			"age" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.age",
 				"val" : 40,
-				"addInfo" : [1, 0]
+				"addInfo" : [
+					1,
+					0
+				]
 			},
-			"king1" :
-			{
+			"king1" : {
 				"type" : "KING",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.age"
 				},
-				"values" : [8, 16, 24, 32, 40, 48, 56, 64, 72, 80]
+				"values" : [
+					8,
+					16,
+					24,
+					32,
+					40,
+					48,
+					56,
+					64,
+					72,
+					80
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "fire" 
+					"subtype" : "fire"
 				},
-				"values" : [false, false,  true, true, true, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-					"subtype" : "air" 
+					"subtype" : "air"
 				},
-				"values" : [false, false, false, false, false, false, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "earth"
 				},
-				"values" : [false, false, false, false, false, false, false, false, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "water"
 				},
-				"values" : [false, false, false, false, true, true, true, true, true, true]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MAX",
-					"description" : "PLACEHOLDER",
+					"description" : "PLACEHOLDER"
 				},
-				"values" : [100, 100, 100, 100, 0, 0, 0, 0, 0, 0]
+				"values" : [
+					100,
+					100,
+					100,
+					100,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			}
 		]
 	}

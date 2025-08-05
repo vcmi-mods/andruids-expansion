@@ -1,67 +1,77 @@
 {
-	"bubonic" :
-	{
+	"bubonic" : {
 		"class" : "necromancer",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Bubonic",
 			"biography" : "Even alive, Doctor Bubonic was well aware that the difference between a potent remedy and deadly toxin lied simply in the dose. He crossed this treshold long ago and now, instead of curing people, he spreads his vicious diseases to further experiment on the victims' corpses. ",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the duration and amount of the Plague Tent's debuffs.",
 				"tooltip" : "Machine Bonus: Plague Tent",
 				"name" : "Plague Tent"
-			}				
+			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "plagueTentSpecS",
 			"specialtyLarge" : "plagueTentSpecL",
 			"large" : "BubonicLarge",
 			"small" : "BubonicSmall"
 		},
 
-		"army" :
-		[
-			{ "creature" : "skeleton", "min" : 20, "max" : 30 },
-			{ "creature" : "plagueTent", "max" : 1, "min" : 1 },
-			{ "creature" : "wight", "min" :  4, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "plagueTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
-			{ "skill" : "necromancy", "level": "basic" },
-			{ "skill" : "intelligence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
 		],
-		"spellbook" :
-		[
-		       "deathRipple"
+		"spellbook" : [
+			"deathRipple"
 		],
-		"specialty" :
-		{
-		"bonuses" : {
-			"lingeringPlague" : {
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 2,
-				"limiters" : [
-					{
-						"creature" : "plagueTent",
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
-			},	
-			"morePlague" : {
-				"type" : "CASTS",
-				"val" : 3,
-				"limiters" : [
-					{
-						"creature" : "plagueTent",
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
-			}		
-		}			
+		"specialty" : {
+			"bonuses" : {
+				"lingeringPlague" : {
+					"type" : "CREATURE_ENCHANT_POWER",
+					"val" : 2,
+					"limiters" : [
+						{
+							"creature" : "plagueTent",
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"morePlague" : {
+					"type" : "CASTS",
+					"val" : 3,
+					"limiters" : [
+						{
+							"creature" : "plagueTent",
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+			}
+		}
 	}
-}
 }

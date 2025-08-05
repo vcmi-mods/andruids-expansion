@@ -1,304 +1,301 @@
 {
-	"core:monk" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:monk" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.holyBlast",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:zealot" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:zealot" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.holyBlast",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:angel" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:angel" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.heavensBlade",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:archangel" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:archangel" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.heavensBlade",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:unicorn" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:unicorn" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.enchantingHorn",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:warUnicorn" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:warUnicorn" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.enchantingHorn",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:mage" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:mage" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicBolt",
-				"val" : 1}
+				"val" : 1
+			}
 		}
 	},
 
-	"core:archMage" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:archMage" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicBolt",
-				"val" : 1}
+				"val" : 1
+			}
 		}
 	},
 
-	"core:genie" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:genie" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:masterGenie" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:masterGenie" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:giant" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:giant" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.lightningBolt",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:titan" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:titan" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.titanBolt",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:thunderbird" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:thunderbird" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.lightningBolt",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:gorgon" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:gorgon" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.gorgonsBreath",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:mightyGorgon" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:mightyGorgon" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.gorgonsBreath",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:wight" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:wight" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.phantomStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:wraith" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:wraith" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.phantomStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:ghostDragon" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:ghostDragon" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.phantomStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:beholder" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:beholder" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.evilGaze",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:evilEye" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:evilEye" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.evilGaze",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:efreet" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:efreet" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.hellFire",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:efreetSultan" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:efreetSultan" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.hellFire",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:devil" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:devil" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.hellFire",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:archDevil" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:archDevil" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.hellFire",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:pixie" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:pixie" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fairyDust",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:sprite" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:sprite" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fairyDust",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:psychicElemental" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:psychicElemental" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:magicElemental" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:magicElemental" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:enchanter" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:enchanter" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicBolt",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	},
 
-	"core:fairieDragon" : {	
-		"abilities" :
-		{
-			"powerAttack" :{
+	"core:fairieDragon" : {
+		"abilities" : {
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.magicStrike",
-				"val" : 0}
+				"val" : 0
+			}
 		}
 	}
-
-
-
 }

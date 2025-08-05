@@ -5,13 +5,13 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
-    "chinese" : {
-		"name": "主动性",
-		"description": "这个模组添加了一个新的辅助技能，这个技能让生物在战斗中更快行动，但是它们的移动距离不受影响。"
+	"chinese" : {
+		"name" : "主动性",
+		"description" : "这个模组添加了一个新的辅助技能，这个技能让生物在战斗中更快行动，但是它们的移动距离不受影响。"
 	},
 	"czech" : {
-		"name": "Iniciativa",
-		"description": "Nová sekundární schopnost, která zrychluje pohyb bojovníků v boji, ale jejich dosah pohybu zůstává stejný."
+		"name" : "Iniciativa",
+		"description" : "Nová sekundární schopnost, která zrychluje pohyb bojovníků v boji, ale jejich dosah pohybu zůstává stejný."
 	},
 	"skills" : [
 		"config/initiativeSkill.json"
