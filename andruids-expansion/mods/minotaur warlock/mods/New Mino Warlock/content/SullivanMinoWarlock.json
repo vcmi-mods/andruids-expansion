@@ -12,7 +12,7 @@
  
       "specialty" :
       {
-        "description" : "{Powerbond}\r\n\r\nPower unleashed by his powerbound creatures deals 3 damage instead of 2.",
+        "description" : "Power unleashed by his powerbound creatures deals 3 damage instead of 2.",
         "tooltip" : "Secondary Skill bonus: Powerbond",
         "name" : "Powerbond"
       }
@@ -62,7 +62,7 @@
 
       "attackpower" : {
         "type" : "SPECIFIC_SPELL_POWER",
-        "subtype" : "spell.newpowerbondFist",
+        "subtype" : "newpowerbondFist",
         "val" : 1,
         "valueType" : "ADDITIVE_VALUE"
       }

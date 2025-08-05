@@ -15,6 +15,10 @@
 			 "max" : 12,
 			 "min" : 6
 		},
+		"cost" :
+		{
+			 "gold" : 1500
+		},		
 		"defense" : 5,
 		"fightValue" : 916,
 		"graphics" :
@@ -66,7 +70,8 @@
 		{
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"noPenalty" :
@@ -76,7 +81,7 @@
 			"petrification" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"val" : 20,
 				"addInfo" : [0,2]
 			}

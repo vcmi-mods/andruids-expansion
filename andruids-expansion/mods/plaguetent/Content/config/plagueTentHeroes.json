@@ -9,7 +9,7 @@
 			"biography" : "Even alive, Doctor Bubonic was well aware that the difference between a potent remedy and deadly toxin lied simply in the dose. He crossed this treshold long ago and now, instead of curing people, he spreads his vicious diseases to further experiment on the victims' corpses. ",
 			"specialty" :
 			{
-				"description" : "{Plague Tent}\r\n\r\nIncreases the duration and amount of the Plague Tent's debuffs.",
+				"description" : "Increases the duration and amount of the Plague Tent's debuffs.",
 				"tooltip" : "Machine Bonus: Plague Tent",
 				"name" : "Plague Tent"
 			}				
@@ -46,7 +46,7 @@
 				"val" : 2,
 				"limiters" : [
 					{
-						"parameters" : [ "plagueTent" ],
+						"creature" : "plagueTent",
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -56,7 +56,7 @@
 				"val" : 3,
 				"limiters" : [
 					{
-						"parameters" : [ "plagueTent" ],
+						"creature" : "plagueTent",
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
