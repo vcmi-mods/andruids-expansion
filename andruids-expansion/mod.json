@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.9.6",
+	"version" : "0.9.7",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.0"
@@ -37,6 +37,9 @@
 		]
 	},
 	"changelog" : {
+		"0.9.7" : [
+			"Removed unused old files"
+		],
 		"0.9.6" : [
 			"Yet another update for vcmi-1.7 format"
 		],
