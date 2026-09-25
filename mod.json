@@ -12,28 +12,28 @@
 		"name" : "扩展模组（Andruids Expansion）",
 		"description" : "修改并扩展了《英雄无敌III》的机制和元素，并添加了新的生物、技能、魔法、宝物和机制。",
 		"translations" : [
-			"translation/andruids-expansion/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Andruidovo rozšíření",
 		"description" : "Modifikace, která rozšiřuje mechaniky a prvky Heroes 3. Přidává nové bytosti, dovednosti, kouzla, artefakty a další herní možnosti.",
 		"translations" : [
-			"translation/andruids-expansion/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"russian" : {
 		"name" : "Andruids Expansion",
 		"description" : "Различные модификации, расширяющие механику и элементы Heroes III. Новые существа, навыки, заклинания, предметы и механики.",
 		"translations" : [
-			"translation/andruids-expansion/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Dodatek Andruidsa",
 		"description" : "Zbiór różnych mini-modów rozszerzajacych oryginalne mechaniki i elementy gry. Nowe stworzenia, zdolność, zaklęcia, obiekty i mechaniki.",
 		"translations" : [
-			"translation/andruids-expansion/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"changelog" : {
