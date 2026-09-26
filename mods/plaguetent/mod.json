@@ -9,14 +9,14 @@
 		"name" : "瘟疫帐篷",
 		"description" : "为墓园种族新增了一台战争机器以及一位初始自带瘟疫帐篷并特长它的英雄。瘟疫帐篷会对目标敌人释放可叠加的疾病或毒素效果，但仅对活物生效！",
 		"translations" : [
-			"translation/plaguetent/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Morový stan",
 		"description" : "Nový bojový stroj Morový stan pro Nekropolis. Přidává také nového hrdinu, který se na něj specializuje. Morový stan zasahuje vybraného nepřítele postupující nemocí nebo jedem. Funguje pouze na živé bytosti!",
 		"translations" : [
-			"translation/plaguetent/czech.json"
+			"translation/czech.json"
 		]
 	},
 
@@ -24,7 +24,7 @@
 		"name" : "Namiot Zarazy",
 		"description" : "Nowa machina wojenna dla frakcji Nekropolii i nowy bohater, który zaczyna i specjalizuje się w jej obsłudze. Namiot Plagi rzuca na wroga kumulującą się chorobę lub truciznę. Działa tylko na żywe stworzenia!",
 		"translations" : [
-			"translation/plaguetent/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"factions" : [
