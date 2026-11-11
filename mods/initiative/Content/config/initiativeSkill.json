@@ -9,8 +9,9 @@
 		"base" : {
 			"effects" : {
 				"battleInitiative" : {
-					"type" : "ENCHANTED",
-					"subtype" : "spell.battleInitiative"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "spell.battleInitiative" }
 				}
 			}
 		},
