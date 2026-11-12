@@ -11,6 +11,7 @@
 	"artifact.andruids-expansion.powerbond.bonerRed.description" : "{#c32c2c|Greater Powerbone}\r\n\r\nStack equipped with this curio has 20% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic that accumulates in the bones of powerbound servants can still be harnessed long after they have drawn their last breath.}",
 	"artifact.andruids-expansion.powerbond.bonerRed.event" : "You pick up a bone wrapped in red cloth. Upon closer inspection, it turns out to be a useful trinket. Give it to one stack of your troops.",
 	"artifact.andruids-expansion.powerbond.bonerRed.name" : "Greater Powerbone",
+	"creatures.andruids-expansion.damned utopia.damnedBloodDragon.bonus.stackExperience5" : "PLACEHOLDER",
 	"creatures.andruids-expansion.damned utopia.damnedBloodDragon.name.plural" : "Blood Dragons",
 	"creatures.andruids-expansion.damned utopia.damnedBloodDragon.name.singular" : "Blood Dragon",
 	"creatures.andruids-expansion.damned utopia.damnedDracolich.name.plural" : "Dracoliches",
