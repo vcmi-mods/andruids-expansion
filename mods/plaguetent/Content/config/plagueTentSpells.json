@@ -112,10 +112,15 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"noAttack" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : -99
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noAttack" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : -99
+							}
+						}
 					}
 				}
 			},

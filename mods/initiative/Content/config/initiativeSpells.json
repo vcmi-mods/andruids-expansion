@@ -28,20 +28,25 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"initiativeBoost" : {
-						//						"addInfo" : 0,
-						"val" : 19,
-						"valueType" : "PERCENT_TO_ALL",
-						"type" : "STACKS_SPEED",
-						"duration" : "STACK_GETS_TURN"
-					},
-					"initiativeFlat" : {
-						//						"addInfo" : 0,
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"type" : "STACKS_SPEED",
-						"duration" : "STACK_GETS_TURN"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"initiativeBoost" : {
+								//						"addInfo" : 0,
+								"val" : 19,
+								"valueType" : "PERCENT_TO_ALL",
+								"type" : "STACKS_SPEED",
+								"duration" : "STACK_GETS_TURN"
+							},
+							"initiativeFlat" : {
+								//						"addInfo" : 0,
+								"val" : 1,
+								"valueType" : "BASE_NUMBER",
+								"type" : "STACKS_SPEED",
+								"duration" : "STACK_GETS_TURN"
+							}
+						}
 					}
 				}
 			},
@@ -49,16 +54,26 @@
 			"none" : {},
 			"basic" : {},
 			"advanced" : {
-				"effects" : {
-					"initiativeBoost" : {
-						"val" : 34
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"initiativeBoost" : {
+								"val" : 34
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"initiativeBoost" : {
-						"val" : 49
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"initiativeBoost" : {
+								"val" : 49
+							}
+						}
 					}
 				}
 			}

@@ -40,8 +40,9 @@
 		"speed" : 0,
 		"abilities" : {
 			"noAttacking" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.plagueTentNoAttack"
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "spell.plagueTentNoAttack" }
 			},
 
 			"plagueCasting" : {

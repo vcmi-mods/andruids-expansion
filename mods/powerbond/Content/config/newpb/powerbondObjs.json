@@ -196,7 +196,7 @@
 				"onEmptyMessage" : "{Bonepeddler's Cart}\r\n\r\n'Don't rattle me BONES!!!' with great sadness in his voice, the Bonepeddler informs you that you can't afford his services. Come back with more gold.\n\n({#2d9726|Lesser Powerbone}: 1500 gold.\n{#c32c2c|Greater Powerbone}: 3000 gold.\n{#8052ad|Hallowed Powerbone}: 5000 gold.)",
 				"visitMode" : "hero",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true,
 					"rewards" : true
 				},
