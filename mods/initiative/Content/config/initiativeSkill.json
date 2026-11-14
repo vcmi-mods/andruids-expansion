@@ -11,7 +11,9 @@
 				"battleInitiative" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "spell.battleInitiative" }
+					"addInfo" : {
+						"spell" : "spell.battleInitiative"
+					}
 				}
 			}
 		},

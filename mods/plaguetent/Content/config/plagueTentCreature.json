@@ -42,7 +42,9 @@
 			"noAttacking" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "spell.plagueTentNoAttack" }
+				"addInfo" : {
+					"spell" : "spell.plagueTentNoAttack"
+				}
 			},
 
 			"plagueCasting" : {
